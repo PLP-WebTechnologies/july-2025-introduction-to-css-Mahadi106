@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections de type "carte" */
+.carte {
+    background-color: white;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Exemple du modèle de boîte */
+.carte {
+    /* Modèle de boîte visible */
+    margin: 20px;       /* Espace extérieur */
+    padding: 15px;      /* Espace intérieur */
+    border: 2px solid #ddd; /* Bordure visible */
+}
